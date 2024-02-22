@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+main{
+    width: 350px;
+    background-color: darkslategray;
+    padding: 10px 5px;
+}
+
+.display{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+
+}
+.display #display{
+    width: 80%;
+    background-color: black;
+    padding: 10px 5px;
+}
+
+button{
+    width: calc(100%/3);
+    padding: 10px 5px;
+    cursor: pointer;
+}
+
+#row2,#row1,#row3,#row4{
+    display: flex;
+
+}
